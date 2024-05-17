@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AuthUtils</name>
+    </assembly>
+    <members>
+        <member name="F:AuthUtils.AppClaimTypes.Permissions">
+            <summary>
+            The custom claim type for the user permissions
+            </summary>
+        </member>
+        <member name="M:AuthUtils.PolicyProvider.PermissionAuthorizationPolicyProvider.GetPolicyAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:AuthUtils.PolicyProvider.PermissionAuthorizeAttribute.#ctor(AuthUtils.PolicyProvider.PermissionOperator,System.String[])">
+            <summary>
+            Initializes the attribute with multiple permissions
+            </summary>
+            <param name="permissionOperator">The operator to use when verifying the permissions provided</param>
+            <param name="permissions">The list of permissions</param>
+        </member>
+        <member name="M:AuthUtils.PolicyProvider.PermissionAuthorizeAttribute.#ctor(System.String)">
+            <summary>
+            Initializes the attribute with a single permission
+            </summary>
+            <param name="permission">The permission</param>
+        </member>
+        <member name="T:AuthUtils.StandardJwtClaimTypes">
+            <summary>
+            List of commonly used claim types
+            https://openid.net/specs/openid-connect-core-1_0.html#StandardClaims
+            </summary>
+        </member>
+    </members>
+</doc>

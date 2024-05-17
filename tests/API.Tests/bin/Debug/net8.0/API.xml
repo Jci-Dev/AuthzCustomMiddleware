@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Authorization.IUserPermissionService.GetUserPermissionsIdentity(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Returns a new identity containing the user permissions as Claims
+            </summary>
+            <param name="sub">The user external id (sub claim)</param>
+            <param name="cancellationToken"></param>
+        </member>
+        <member name="M:API.Controllers.ProductsController.Get">
+            <summary>
+            Both Alice and Bob can see access this. Only 'Read' is required
+            </summary>
+        </member>
+        <member name="M:API.Controllers.ProductsController.Create">
+            <summary>
+            Only Alice can see access this. Only 'Create' is required
+            </summary>
+        </member>
+        <member name="M:API.Controllers.ProductsController.Update">
+            <summary>
+            Only Alice can see access this. 'Update' AND 'Read' are required
+            </summary>
+        </member>
+        <member name="M:API.Controllers.ProductsController.Delete">
+            <summary>
+            Both Alice and Bob can see access this. 'Delete' OR 'Read' are required
+            </summary>
+            <remarks>
+            Don't @ me please. Users with 'Read' permission shouldn't be able to delete stuff, I know.
+            This is just to demonstrate the OR operator.
+            </remarks>
+        </member>
+        <member name="M:API.Controllers.UserController.GetUserClaims">
+            <summary>
+            Call this endpoint to see all the logged-in user claims!
+            </summary>
+        </member>
+        <member name="M:API.Controllers.UserController.GetSecretData">
+            <summary>
+            only alice can access this. Try!
+            </summary>
+        </member>
+        <member name="M:API.Controllers.UserController.GetAlhocolicBeverage">
+            <summary>
+            Only bob can buy alcoholic drinks! 
+            </summary>
+        </member>
+        <member name="P:API.EF.User.Id">
+            <summary>
+            Our internal Id
+            </summary>
+        </member>
+        <member name="P:API.EF.User.ExternalId">
+            <summary>
+            The sub claim from the JWT token
+            </summary>
+        </member>
+        <member name="T:API.Infrastructure.DbMigratorHostedService">
+            <summary>
+            A hosted service that will migrate the database automatically.
+            This is only for demo/dev purpose..
+            </summary>
+        </member>
+    </members>
+</doc>

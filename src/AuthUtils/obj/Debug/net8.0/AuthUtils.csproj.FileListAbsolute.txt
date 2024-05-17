@@ -1,0 +1,15 @@
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/bin/Debug/net8.0/AuthUtils.deps.json
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/bin/Debug/net8.0/AuthUtils.dll
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/bin/Debug/net8.0/AuthUtils.pdb
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/bin/Debug/net8.0/AuthUtils.xml
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.csproj.AssemblyReference.cache
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.AssemblyInfoInputs.cache
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.AssemblyInfo.cs
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.csproj.CoreCompileInputs.cache
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.sourcelink.json
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.dll
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/refint/AuthUtils.dll
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.xml
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/AuthUtils.pdb
+/Users/vrods70/Dev/GitHub/authz-custom-middleware/src/AuthUtils/obj/Debug/net8.0/ref/AuthUtils.dll
